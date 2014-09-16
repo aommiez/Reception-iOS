@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PFLoginViewController.h"
 
 @interface PFAppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) PFLoginViewController *loginViewController;
 @end
